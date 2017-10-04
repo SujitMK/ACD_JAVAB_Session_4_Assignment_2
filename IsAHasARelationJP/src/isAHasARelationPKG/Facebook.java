@@ -1,19 +1,19 @@
-package isAHasARelationPKG;
+package isAHasARelationPKG;  // declared a package
 
 public class Facebook extends SocialMedia{         // Facebook extends SocialMedia - "IS-A" Relation
 	
-	public void fsharing(int i)
+	public void fsharing(int i)           // declared and defined a method
 	{
-		if (i <= 5)
+		if (i <= 5)          // checking if condition
 		{
-			System.out.println("Video will be shared on Facebook.");
-			System.out.println();
+			System.out.println("Video will be shared on Facebook.");      // printing info
+			System.out.println(); // printing blank line
 		}
 		else
 		{
-			// Creating an object of Whatsapp class and calling Sharing method - "HAS-A" Relation
-			Whatsapp w = new Whatsapp();
-			w.wSharing();  
+			// Creating an object of Whatsapp class and calling Sharing method - "HAS-A" Relation         // printing info
+			Whatsapp w = new Whatsapp();      // creating a object
+			w.wSharing();   // calling a method
 		}
 	}
 	
